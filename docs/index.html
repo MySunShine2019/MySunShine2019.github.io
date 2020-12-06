@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Java码农ing</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!--主题配置-->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css">-->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dolphin.css">-->
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+	  el: '#app',
+	  // 封面
+	  // coverpage: true,
+	  loadNavbar: true,
+      name: 'Java码农ing',
+	  repo: 'https://github.com/MySunShine2019/MySunShine2019',
+	  // 显示目录
+	  loadSidebar: true,
+	  subMaxLevel: 2,
+	  // 切换页面后是否自动跳转到页面顶部。
+	  auto2top: true,
+	  logo: '/微信公众号二维码.jpg',
+	  autoHeader: true,
+	  // 小屏设备下合并导航栏到侧边栏。
+	  mergeNavbar: true,
+	  formatUpdated: '{MM}/{DD} {HH}:{mm}',
+	  formatUpdated: function(time) {
+		return time;
+	  },
+	  // 外部链接的打开方式。默认为 _blank （在新窗口或者标签页中打开）
+	  externalLinkTarget: '_self',
+	  // 只在访问主页时加载封面。
+	  onlyCover: false,
+	  // 资源的文件扩展名。
+	  ext: '.md',
+	  // 设置缓存
+	  requestHeaders: {
+		'cache-control': 'max-age=600',
+	  },
+	  // 在找不到指定页面时加载_404.md
+	  notFoundPage: true,
+	  // 让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。当你使用 固定页头 布局时这个选项很有用，可以让你的锚点对齐标题栏。
+	  topMargin: 90,
+	  disqus: 'shortname',
+	  count:{
+		countable:true,
+		fontsize:'0.9em',
+		color:'rgb(90,90,90)',
+		language:'chinese'
+      },
+	 // 搜索插件
+	 search: {
+	   maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+       paths: 'auto', 
+       placeholder: '搜索',
+	   noData: '找不到结果',
+	   paths: 'auto',
+	   depth: 3,
+	   hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+	   namespace: 'website-1',
+     }
+	 // 主题颜色
+	 // themeColor: '#3F51B5'
+    }
+	
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  
+  <!--docsify的分页导航插件-->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rest.min.js"></script>
+	
+	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-scheme.min.js"></script>
+	  
+	    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+		  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+		  
+		    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-xml-doc.min.js"></script>
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-vim.min.js"></script>
+			    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+								    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+									  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jq.min.js"></script>
+				  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json5.min.js"></script>
+					  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+						  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsonp.min.js"></script>
+							  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
+								  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
+									  	  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-mongodb.min.js"></script>
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+			    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+			
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-properties.min.js"></script>
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+			  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  
+  
+  
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+
+  <!--表情-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+  <!-- Google ad -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  
+  <script>
+      ((window.gitter = {}).chat = {}).options = {
+          room: 'Java码农ing/Coder'
+      };
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+</body>
+</html>
